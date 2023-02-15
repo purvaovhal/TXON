@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(154, 150, 150);
+    opacity: 0.8;
+}
+nav li{
+    list-style: none;padding: 19px;
+    font-size: 25px;
+    font-family: system-ui;
+    color:black;
+}
+nav li:hover{
+    color:white; 
+}
+.first{  
+    background-image: url('img.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.first #quote{
+    content: cenetr;
+    text-align: center;
+    margin-top: 10vw;
+    margin-right: 87vh;
+    font-size: 3vw;
+    color: hwb(68 33% 5% / 0.952);
+    font-family: sans-serif;
+}
+#line{
+    width: 110vh;
+    color: black;
+}
+.first .box{
+    display: flex;
+    flex-direction:column;
+    margin-left: 33vh;
+    margin-top: 14vh;
+}
+.box{
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 18px;
+    width: 372px;
+    height: 335px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+.box #input{
+    width: 330px;
+    justify-content: center;
+    text-align: center;
+    padding: 11px;
+    margin: 5px;
+    border-radius: 16px;
+}
+.box #input:hover{
+    background-color: rgb(222, 215, 215);
+}
+
+.box #btn{
+    width: 81px;
+    margin-left: 16vh;
+    height: 32px;
+    border-radius: 28px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(199, 199, 216);
+}
+.box #quote3{
+    font-size: 30px;
+    color: white;
+    font-family:sans-serif;
+}
+.first #quote2{
+    text-align: center;
+    margin-top: 4vw;
+    margin-left: 23vh;
+    font-size: 34px;
+    color: white;
+}
